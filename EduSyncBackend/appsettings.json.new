@@ -1,0 +1,19 @@
+{
+  "Jwt": {
+    "Key": "YourVeryStrongSecretKeyHereChangeIt",
+    "Issuer": "EduSyncAPI",
+    "Audience": "EduSyncAPIClients",
+    "ExpiryMinutes": "60"
+  },
+
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=LAPTOP-58K8CFLB;Initial Catalog=EduSyncDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
